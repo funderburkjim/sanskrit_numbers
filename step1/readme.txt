@@ -54,3 +54,16 @@ row 4 is not empty in last 3 columns
  col 18:
 
 ---------------------------------------------------------------
+11-20-2023
+Revision of test2.txt (manually on Github)
+  (remove some asterisks)
+git pull
+-----
+cp test2.txt tempprev_test2.txt
+
+Comparable revision of Numbering-Skt-Final-15thNov23Starred.tsv (local)
+
+Rerun construction of test2.txt
+python test2.py  Numbering-Skt-Final-15thNov23Starred.tsv test2.txt
+Now the calculated test2.txt has the revisions
+  So git status yields only changes to Numberin...txt and readme.txt.
